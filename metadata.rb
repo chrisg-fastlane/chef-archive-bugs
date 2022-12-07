@@ -1,0 +1,6 @@
+name 'chef_archive_bugs'
+maintainer_email 'chris.gillings@westpac.com.au'
+license 'All Rights Reserved'
+description 'Installs/Configures chef_archive_bugs'
+version '0.1.0'
+chef_version '>= 15.0'

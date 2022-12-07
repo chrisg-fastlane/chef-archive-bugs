@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "recipe[chef_archive_bugs::archive_setup]",
+    "recipe[chef_archive_bugs::delete_testdir]",
+    "recipe[chef_archive_bugs::make_testdir]",
+    "recipe[chef_archive_bugs::unpack_archive]" 
+  ]
+}
